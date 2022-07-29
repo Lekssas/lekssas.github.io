@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.header{
+	height: 50%;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bikeshop-front.jpeg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #fff;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+
+}
+.nav-links ul li a{
+	color: #befac4;
+	text-decoration: none;
+	font-size: 13px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #fff;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+.text{
+	width: 90%;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+/*------ bilder ------*/
+.bottom{
+	width: 90%;
+	margin: auto;
+	text-align: left;
+	padding-top: 100px;
+	display: flex;
+}
+.images{
+
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+}
+
+.images img{
+	width: 200px;
+	height: 180px;
+	border-radius: 10px;
+	border: 3px solid #befac4;
+	padding: 3px;
+	position: relative;
+	display: flex;
+}
+
+/*------ bilder2 ------*/
+.bottom1{
+	width: 90%;
+	margin: auto;
+	text-align: left;
+	padding-top: 100px;
+	display: flex;
+}
+.images2{
+
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+}
+
+.images2 img{
+	width: 200px;
+	height:180px;
+	border-radius: 10px;
+	border: 3px solid #befac4;
+	padding: 3px;
+	position: relative;
+	display: flex;
+}
+/*------ footer ------*/
+
+.footer{
+	margin-top: 30px;
+	margin: auto;
+	border-top: 1px solid black;
+	width: 90%;
+	text-align: center;
+	padding: 30px 0px;
+
+
+}
+.footer a{
+
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+	color: black;
+	text-decoration: none;
+
+
+}
+.footer p{
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
